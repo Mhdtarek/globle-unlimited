@@ -27,7 +27,21 @@ export function Message({ win, error, guesses }: Props) {
     return (
       <p className="text-green-800 dark:text-green-300 font-bold ">
         <FormattedMessage id="Game7" values={{ answer: name }} />
+        <div className="grid place-items-center h-screen">
+        <button
+          className="bg-blue-700 hover:bg-blue-900 dark:bg-purple-800 dark:hover:bg-purple-900
+          text-white rounded-md px-8 py-2 block text-base font-medium 
+          focus:outline-none focus:ring-2 focus:ring-blue-300 
+          justify-around sm:flex-grow sm:mx-10"
+          onClick={() => {localStorage.clear();window.location.reload();}}
+          
+          >
+          <FormattedMessage id="Stats9" defaultMessage="Next Game"/>
+        </button>
+      </div>
+
       </p>
+      
     );
   } else if (guesses === 0) {
     return (

@@ -22,7 +22,7 @@ export default function Header({ setScreen, setReSpin, setShowStats }: Props) {
     <header className="mt-8 h-10 relative dark:text-gray-300 z-10">
       <div className="relative h-full">
         <div className="space-x-1 flex absolute left-0 bottom-1">
-          <button onClick={() => location.reload()} aria-label="Help">
+          <button onClick={() => {localStorage.clear();window.location.reload();}} aria-label="Help">
           ↻
           </button>
         </div>
