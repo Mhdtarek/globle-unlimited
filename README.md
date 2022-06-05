@@ -1,4 +1,4 @@
-# globle Unlimited
+# Globle Unlimited
 fork of globle to allow you to play globle without waiting for the next day!
 ###
 Link: https://globle-unlimited.netlify.app/
