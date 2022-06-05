@@ -1,4 +1,4 @@
-# Globle Unlimited
+# globle Unlimited
 fork of globle to allow you to play globle without waiting for the next day!
 ###
 Link: https://globle-unlimited.netlify.app/
@@ -9,7 +9,9 @@ Link: https://globle-unlimited.netlify.app/
 2. npm install
 3. npm run dev
 
-## THIS IS A FORK I FORGOT FORK IT ALL RIGHTS GOES TO: https://github.com/the-abe-train/globle
 
-### license
+## license
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+
+### THIS IS A FORK I FORGOT FORK IT ALL RIGHTS GOES TO: https://github.com/the-abe-train/globle
